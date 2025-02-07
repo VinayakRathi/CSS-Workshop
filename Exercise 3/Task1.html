@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Column Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            height: 100vh; /* Full height */
+        }
+
+        .left-column {
+            width: 50%;
+            background-color: #d3d3d3; /* Light gray */
+            padding: 20px;
+        }
+        .right-column {
+            width: 50%;
+            background-color: #90ee90; /* Light green */
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        li {
+            font-size: 18px;
+            padding: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="left-column">
+            <h2>Amazon Kindle Bestsellers</h2>
+            <ol type="1">
+                <li> The Women by Kristin Hannah</li>
+                <li> Iron Flame by Rebecca Yarros</li>
+                <li> The Housemaid by Freida McFadden</li>
+                <li> The Exchange by John Grisham</li>
+                <li> Lessons in Chemistry by Bonnie Garmus</li>
+            </ol>
+        </div>
+
+        <!-- Right Column: Favorite Celebrities -->
+        <div class="right-column">
+            <h2>My Favorite Celebrities</h2>
+            <ol type="1">
+                <li> Lionel Messi</li>
+                <li> Taylor Swift</li>
+                <li> Keanu Reeves</li>
+                <li> Emma Watson</li>
+                <li> Michael Jordan</li>
+            </ol>
+        </div>
+    </div>
+
+</body>
+</html>
